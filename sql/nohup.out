@@ -1,3 +1,0 @@
-psql:dc_insert_into.sql:104: ERROR:  duplicate key value violates unique constraint "geoheader_sf1_pkey"
-DETAIL:  Key (logrecno)=(1) already exists.
-psql:dc_insert_into.sql:104: could not receive data from server: Operation timed out

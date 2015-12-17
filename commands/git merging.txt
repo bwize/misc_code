@@ -1,8 +1,0 @@
-git merging:
-
--make sure current branch is up to date (gits)
--git checkout master
--git merge broadband
-
--eventually will want to delete the broadband branch
-

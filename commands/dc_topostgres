@@ -1,1 +1,0 @@
-find ./data/ -name *geo2010.sf1 -exec psql -c "\copy dc_2010.geo_header_staging from '{}' WITH DELIMITER AS '|'" -d propdata \;

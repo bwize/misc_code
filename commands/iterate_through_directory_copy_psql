@@ -1,1 +1,0 @@
-find ./*/od/ -name *2013.csv -exec psql -c "\copy lodes_block from '{}' header csv" -d propdata \;
