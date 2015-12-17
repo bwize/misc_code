@@ -1,0 +1,31 @@
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_blockgroup_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_blockgroup_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_congressionaldistrict_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_congressionaldistrict_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_county_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_county_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_county_subdivision_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_countysubdivision_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_lowerdistrict_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_lowerdistrict_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_place_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_place_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_state_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_state_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_tract_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_tract_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_upperdistrict_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_upperdistrict_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_usd_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_usd_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"
+
+
+psql -h  10.0.4.28 -U postgres propdata -c "\copy (SELECT shid, pop__total__per_capita_income__usd FROM per_cap_inc_zip_mview ORDER BY shid) TO STDOUT" | psql -h 146.148.91.39 -U postgres propdata -c "\copy per_cap_inc_zip_mview (shid, pop__total__per_capita_income__usd) FROM STDIN"

@@ -1,0 +1,53 @@
+﻿alter table apportioned_citycouncil_mview
+drop column pop__total__18_and_over__count__1;
+
+alter table apportioned_citycouncil_mview
+rename column pop__race__total_pop_black__count__2 to pop__race__black__count__2;
+
+
+alter table apportioned_citycouncil_mview
+rename column pop__race__total_pop_white__count__1 to pop__race__white__count__1;
+
+
+alter table apportioned_citycouncil_mview
+rename column pop__race__total_pop_american_indian__count__3 to pop__race__american_indian__count__3;
+
+alter table apportioned_citycouncil_mview
+rename column pop__race__total_pop_asian__count__4 to pop__race__asian__count__4;
+
+
+
+alter table apportioned_citycouncil_mview
+rename column pop__race__total_pop_pacific_islander__count__5 to pop__race__pacific_islander__count__5;
+
+
+
+alter table apportioned_citycouncil_mview
+rename column pop__race__total_pop_other__count__6 to pop__race__other__count__6;
+
+
+
+alter table apportioned_citycouncil_mview
+rename column pop__race__total_pop_hispanic__count__7 to pop__race__hispanic__count__7;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__mean__average_family_size__count to household__total__average_family_size__count;
+
+
+alter table apportioned_citycouncil_mview
+rename column houseunit__median__median_home_value__count to houseunit__total__median_home_value__count;
+
+
+
+alter table apportioned_citycouncil_mview
+rename column houseunit__median__median_home_rent__usd to houseunit__total__median_home_rent__usd;
+
+alter table apportioned_citycouncil_mview
+rename column household__median__median_household_income__usd to household__total__median_household_income__usd;
+
+alter table apportioned_citycouncil_mview
+rename column pop__education__enrolled_in_school__count__1 to pop__total__enrolled_in_school__count;
+
+
+

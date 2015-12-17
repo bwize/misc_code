@@ -1,0 +1,13 @@
+"county-subdivisions";35670
+"blockgroup";219734
+"unified-school-district";10904
+"state";51
+"state-house";4785
+"county";3142
+"tract";73767
+"neighborhood";5303
+"us-congressional";436
+"city-council-district";1777
+"place";29494
+"zipcode";32989
+"state-senate";1946

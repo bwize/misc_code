@@ -1,0 +1,78 @@
+CREATE TABLE over_18_male_state_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+  
+);
+
+CREATE TABLE over_18_male_county_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_county_subdivision_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_lowerdistrict_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_upperdistrict_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_usd_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_congressionaldistrict_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_zip_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_place_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_tract_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_neighborhood_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_blockgroup_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);
+
+CREATE TABLE over_18_male_citycouncil_mview
+(
+  shid character varying(254),
+  pop__18_and_over__male__count integer
+);

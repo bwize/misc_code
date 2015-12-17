@@ -1,0 +1,108 @@
+﻿alter table apportioned_citycouncil_mview
+rename column household__total__average_family_size__count__1 to household__mean__average_family_size__count;
+
+alter table apportioned_citycouncil_mview
+rename column houseunit__total__median_home_value__usd__1 to houseunit__median__median_home_value__count;
+
+
+alter table apportioned_citycouncil_mview
+rename column houseunit__total__median_home_rent__usd__1 to houseunit__median__median_home_rent__usd;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__total__median_household_income__usd__1 to household__median__median_household_income__usd;
+
+
+alter table apportioned_citycouncil_mview
+rename column pop__generation__generation_y__count__2 to pop__generation__millennial__count;
+
+alter table apportioned_citycouncil_mview
+rename column pop__language__primary_lang_other_than_english__percent__1 to pop__total__primary_lang_other_than_english__percent;
+
+
+alter table apportioned_citycouncil_mview
+rename column pop__toal__under_20__count__1 to pop__total__under_20__count;
+
+
+
+alter table apportioned_citycouncil_mview
+rename column household__total__below_poverty_level__count__1 to house__total__below_poverty_level__count;
+
+
+
+alter table apportioned_citycouncil_mview
+rename column household__total__receive_food_stamps__count__1 to house__total__receive_food_stamps__count__1;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__grapi__less_than_15__percent__1 to houseunit__grapi__less_than_15__percent__1;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__grapi__15_to_20__percent__2 to houseunit__grapi__15_to_20__percent__2;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__grapi__20_to_25__percent__3 to houseunit__grapi__20_to_25__percent__3;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__grapi__25_to_30__percent__4 to houseunit__grapi__25_to_30__percent__4;
+
+
+
+alter table apportioned_citycouncil_mview
+rename column household__grapi__30_to_35__percent__5 to houseunit__grapi__30_to_35__percent__5;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__grapi__35_or_more__percent__6 to houseunit__grapi__35_or_more__percent__6;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__smocapi__less_than_20__percent__1 to houseunit__smocapi__less_than_20__percent__1;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__smocapi__20_to_25__percent__2 to houseunit__smocapi__20_to_25__percent__2;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__smocapi__25_to_30__percent__3 to houseunit__smocapi__25_to_30__percent__3;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__smocapi__30_to_35__percent__4 to houseunit__smocapi__30_to_35__percent__4;
+
+
+alter table apportioned_citycouncil_mview
+rename column household__smocapi__35_or_more__percent__5 to houseunit__smocapi__35_or_more__percent__5;
+
+
+
+
+alter table apportioned_citycouncil_mview
+drop column pop__total__college_graduate__count__1;
+
+
+
+alter table apportioned_citycouncil_mview
+drop column pop__total__high_school_graduate__count__1;
+
+alter table apportioned_citycouncil_mview
+drop column pop__total__over_25__count__1;
+
+alter table apportioned_citycouncil_mview
+drop column houseunit__total__vacant_for_sale_only__count__1;
+
+alter table apportioned_citycouncil_mview
+drop column houseunit__total__vacant_for_rent__count__1;
+
+alter table apportioned_citycouncil_mview
+drop column pop__total__over_5__count__1;
+
+
+
+alter table apportioned_citycouncil_mview
+drop column pop__total__language_other_than_english__count__1;
+
